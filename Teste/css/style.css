@@ -1,0 +1,110 @@
+header {
+    font-family: 'Staatliches', cursive;
+    color: #f1e9af;
+    margin-top: 24vh;
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+    background: url(../css/assets/wz.jpg);
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+section {
+    position: relative;
+}
+
+.container {
+    max-width: 30%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1em;
+    background-color: #a8862dCC;
+    padding: 5vh;
+    margin: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px #78439733;
+}
+
+#result {
+
+    font-size: 20px;
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ff0000BB;
+    display: none;
+}
+
+#again {
+    display: none;
+}
+
+input {
+    margin-bottom: 15px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #000000BB;
+    padding: 5px;
+    color: white;
+}
+
+.btn {
+    margin: auto;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #ff0000BB;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008000BB;
+    color: red;
+}
+
+footer {
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(73, 32, 110);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    .container{
+        max-width: 80%;
+    }
+    input{
+        max-width: 80%;
+    }
+    label{
+        font-size: 0.85em;
+    }
+    #result{
+        font-size: 18px;display: none;width: 80%;padding: 2px;
+        margin-bottom: 10px;
+    }
+    footer{
+        margin-bottom: 10vh;
+    }
+
+}

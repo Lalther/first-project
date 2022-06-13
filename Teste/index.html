@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.google.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">KD Calculator</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="conteudo">
+                <label for="nick">Whats your nickname?</label> <br>
+                <input type="text" id="nick" required> <br>
+
+                <label for="kills">How many kills do you have?</label> <br>
+                <input type="number" min="0" id="kills" required> <br>
+
+                <label for="deaths">How many deaths do you have?</label> <br>
+                <input type="number" min="0" id="deaths" required>
+            </div>
+            <div id="result"></div> <br>
+            
+            <button type="submit" class="btn" id="submit" >Calculate</button> 
+            
+            <button type="submit" class="btn" id="again">Calc again</button>
+        </div>
+    </section>
+    <footer>This is a test, just for study propuse. Created by Lalther Ubiratan</footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
